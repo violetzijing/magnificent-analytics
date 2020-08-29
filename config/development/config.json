@@ -1,0 +1,7 @@
+{
+        "url":   "https://api.us-west-1.saucelabs.com/v1/magnificent/",
+        "threshold": 20,
+        "timeout": 5,
+        "interval_time": 10,
+        "health_ratio": 0.8
+}
