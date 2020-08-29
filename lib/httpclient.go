@@ -31,12 +31,6 @@ const (
 	HTTPGet = "Get"
 )
 
-// Header is the default header for sending HTTP request
-var Header = map[string]string{
-	"Content-Type": "application/json",
-	"User-Agent":   "Freewheel/MAUI",
-}
-
 // CreateRequest will generate url according to passed parameters
 func CreateRequest(url string, method string, body io.Reader) (*http.Request, error) {
 	var (
